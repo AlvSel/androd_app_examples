@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ScoreBowl</string>
+    <string name="titleLogin">Login</string>
+    <string name="errorFieldRequired">Campo requerido</string>
+    <string name="nameTV">Nombre</string>
+    <string name="emailHint">Email</string>
+    <string name="passHint">Contraseña</string>
+    <string name="passRep">Repetir Contraseña</string>
+    <string name="regBut">Registro</string>
+    <string name="errorEmail">El email debe contener una @</string>
+    <string name="dialogExisteUser">El usuario ya existe</string>
+    <string name="titleAlertDialog">Aviso</string>
+    <string name="dialogPassIguales">Las contraseñas debe ser iguales</string>
+    <string name="titleNotification">Bienvenido</string>
+    <string name="notificationWellcome">Bienvenido a la aplicación ScoreBowl!</string>
+    <string name="usuarioHint">Usuario</string>
+    <string name="nuevoTV">¿Eres nuevo? Regístrate</string>
+    <string name="inicBut">Inicio</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="newEmailHint">Nuevo Email</string>
+    <string name="newNameTV">Nuevo Nombre</string>
+    <string name="cerrar">Cerrar</string>
+
+    <string name="rules">
+        Por cada bolo derribado se sumará un punto al marcador del jugador siempre y cuando no se dan las siguientes circunstancias:\n\n
+        \t1) Haber derribado todos los bolos en el primer lanzamiento de un juego. A esta jugada se le suele llamar strike y se representa en el marcador con una X. Se sumarán diez puntos, más los puntos totales que se consigan en los dos siguientes lanzamientos de bola.\n\n
+        \t2) Haber derribado todos los bolos utilizando los dos lanzamientos del juego. A esta jugada se llama spare. Se representa en el marcador con una /. En este caso se sumarán diez puntos más los que se consigan en el siguiente lanzamiento de bola.\n\n
+        La máxima puntuación posible es 300 puntos, y para conseguirlo es necesario conseguir 12 strikes consecutivos (de la tirada 1 a la 10 y sus dos adicionales correspondientes).\n\n
+        Si el jugador pisa o atraviesa la línea de falta, se le anota un cero en el marcador, ya sea el primer tiro o en el segundo que efectuó
+    </string>
+</resources>

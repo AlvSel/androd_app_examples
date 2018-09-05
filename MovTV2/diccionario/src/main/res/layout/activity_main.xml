@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/texto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.das.diccionario.MainActivity">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/prueba1"
+        android:id="@+id/cuadro" />
+
+    <Button
+        android:text="es"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cuadro"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/butEs" />
+
+    <Button
+        android:text="eu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:id="@+id/butEu"
+        android:layout_alignBaseline="@+id/butEs"
+        android:layout_alignBottom="@+id/butEs"
+        android:layout_toEndOf="@+id/butEs" />
+
+    <Button
+        android:text="en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/butEn"
+        android:layout_alignBaseline="@+id/butEu"
+        android:layout_alignBottom="@+id/butEu"
+        android:layout_toEndOf="@+id/butEu"
+        android:layout_marginStart="27dp" />
+
+
+</RelativeLayout>

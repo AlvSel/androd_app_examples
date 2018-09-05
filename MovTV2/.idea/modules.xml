@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MovTV2.iml" filepath="$PROJECT_DIR$/MovTV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/addtask/addtask.iml" filepath="$PROJECT_DIR$/addtask/addtask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contextos/contextos.iml" filepath="$PROJECT_DIR$/contextos/contextos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/diccionario/diccionario.iml" filepath="$PROJECT_DIR$/diccionario/diccionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/int/int.iml" filepath="$PROJECT_DIR$/int/int.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muertos/muertos.iml" filepath="$PROJECT_DIR$/muertos/muertos.iml" />
+    </modules>
+  </component>
+</project>

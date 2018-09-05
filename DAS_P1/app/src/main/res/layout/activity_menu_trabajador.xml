@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.das.das_p1.MenuTrabajadorActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/compBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/compButton" />
+
+        <Button
+            android:id="@+id/notasBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notasButton" />
+
+        <Button
+            android:id="@+id/settBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settButton" />
+
+        <Button
+            android:id="@+id/addEventBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addEvent" />
+
+        <Button
+            android:id="@+id/cameraBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camaraBut" />
+
+        <Button
+            android:id="@+id/imagesBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imagesBut" />
+
+        <Button
+            android:id="@+id/smsBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smsBut" />
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

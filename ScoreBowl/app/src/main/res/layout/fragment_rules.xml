@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="35dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView android:id="@+id/walterTV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="This is not ‘Nam. This is bowling. There are rules."
+            android:gravity="center"
+            android:textSize="16dip"
+            android:typeface="serif"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:background="#70FFFFFF"/>
+
+        <TextView android:id="@+id/rulesTV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="@string/rules"
+            android:gravity="fill"
+            android:textSize="12dip"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:background="#70FFFFFF"/>
+    </LinearLayout>
+
+</ScrollView>

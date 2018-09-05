@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">DAS_P2</string>
+    <string name="settButton">Preferencias</string>
+    <string name="reunionButton">Reuniones</string>
+    <string name="compButton">Compañeros</string>
+    <string name="notasButton">Notas</string>
+    <string name="regBut">Registrarse</string>
+    <string name="inicBut">Inicio</string>
+    <string name="nameTV">Nombre</string>
+    <string name="nuevoTV">¿Eres nuevo?</string>
+    <string name="passHint">Introduce pass</string>
+    <string name="emailHint">Introduce email</string>
+    <string name="passRep">Repite pass</string>
+    <string name="usuarioHint">Usuario</string>
+    <string name="addNote">Añadir Nota</string>
+    <string name="noteHint">Escribe una nota</string>
+    <string name="dialogCerrar">Cerrar</string>
+
+    <string name="errorFieldRequired">Campo Requerido</string>
+    <string name="errorEmail">El email debe contener @</string>
+    <string name="errorNote">La nota debe contener algún caracter</string>
+
+    <string name="titleMain">Inicio</string>
+    <string name="titleMenuTrabajador">Menu Trabajador</string>
+    <string name="titleAlertDialog">AVISO</string>
+    <string name="titleNotification">Bienvenido</string>
+    <string name="titleDialogBorrar">¿Borrar?</string>
+    <string name="titleNotes">Mis Notas</string>
+
+    <string name="dialogExisteUser">El nombre de usuario ya existe en el sistema</string>
+    <string name="dialogPassIguales">Las contraseñas deben ser iguales</string>
+    <string name="dialogLogin">Usuario o contraseña incorrectos</string>
+
+    <string name="dialogBorrarPregunta">¿Seguro que quieres borrar?</string>
+
+    <string name="notificationWellcome">Bienvenido a la aplicación</string>
+    <string name="title_activity_preferencias">Setting</string>
+
+    <!-- Strings related to Settings -->
+    <string-array name="pref_temas">
+        <item>Default</item>
+        <item>Horror</item>
+    </string-array>
+    <string name="addEvent">Añadir Evento</string>
+    <string name="imagesBut">Fotos Trabajo</string>
+    <string name="camaraBut">Camara</string>
+    <string name="imageTV">Imagen obtenida</string>
+    <string name="smsBut">Mis SMS</string>
+</resources>

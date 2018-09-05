@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:titleCondensed="@string/app_name"
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add_black_24px"
+            android:title="Añadir Partida" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_list_black_24px"
+            android:title="Mi Historial" />
+        <item
+            android:id="@+id/nav_classification"
+            android:icon="@drawable/ic_trending_up_black_24px"
+            android:title="Clasificación" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/ic_assignment_black_24px"
+            android:title="Reglas" />
+        <item android:title="Configuración">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_edit"
+                        android:icon="@drawable/ic_person_black_24px"
+                        android:title="Editar Perfil" />
+                    <item
+                        android:id="@+id/nav_password"
+                        android:icon="@drawable/ic_mode_edit_black_24px"
+                        android:title="Cambiar Contraseña" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="Logout">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_exit"
+                        android:icon="@drawable/ic_exit_to_app_black_24px"
+                        android:title="Salir" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>

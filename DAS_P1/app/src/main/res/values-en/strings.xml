@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DAS_P1</string>
+    <string name="compButton">Coworkers</string>
+    <string name="dialogExisteUser">Username already exists</string>
+    <string name="dialogPassIguales">Passwords have to be equals</string>
+    <string name="errorFieldRequired">Field required</string>
+    <string name="inicBut">Start</string>
+    <string name="nameTV">Name</string>
+    <string name="notasButton">Notes</string>
+    <string name="notificationWellcome">Welcome to the app</string>
+    <string name="nuevoTV">Are you new?</string>
+    <string name="passHint">Introduce pass</string>
+    <string name="regBut">Register</string>
+    <string name="settButton">Preferences</string>
+    <string name="reunionButton">Meetings</string>
+    <string name="titleAlertDialog">WARNING</string>
+    <string name="titleMenuTrabajador">Worker Menu</string>
+    <string name="titleNotification">Welcome</string>
+    <string name="usuarioHint">User</string>
+    <string name="dialogBorrarPregunta">Are you sure?</string>
+    <string name="addNote">Add Note</string>
+    <string name="dialogCerrar">Close</string>
+    <string name="dialogLogin">User or pass is incorrect</string>
+    <string name="emailHint">Introduce your email</string>
+    <string name="errorEmail">Email must be contains @</string>
+    <string name="errorNote">The note cannot be empty</string>
+    <string name="passRep">Repeat pass</string>
+    <string name="titleDialogBorrar">Delete?</string>
+    <string name="titleMain">Start</string>
+    <string name="titleNotes">My notes</string>
+    <string name="title_activity_preferencias">Setting</string>
+    <string name="noteHint">Write a note</string>
+    <string name="addEvent">Add Event</string>
+</resources>

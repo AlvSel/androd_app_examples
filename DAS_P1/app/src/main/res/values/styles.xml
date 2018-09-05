@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Horror" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#00FF00</item>
+        <item name="colorPrimaryDark">#F0F000</item>
+        <item name="colorAccent">#FF0000</item>
+        <item name="android:textColorPrimary">#FF10FF</item>
+        <item name="android:textViewStyle">@style/HorrorTextView</item>
+    </style>
+
+    <style name="HorrorTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">#B0C</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+</resources>
